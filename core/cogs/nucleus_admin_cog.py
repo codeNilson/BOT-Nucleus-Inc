@@ -15,7 +15,14 @@ class AdminCog(commands.Cog, name="Admin"):
             await message.channel.send("Pong!")
 
     @app_commands.command(name="create_event", description="Cria um novo evento")
-    async def create_event(self, interaction: discord.Interaction):
+    async def create_event(
+        self,
+        interaction: discord.Interaction,
+        título: str,
+        descrição: str,
+        data: str,
+        channel: discord.VoiceChannel,
+    ):
         await interaction.response.send_message("Criando um novo evento...")
 
 
