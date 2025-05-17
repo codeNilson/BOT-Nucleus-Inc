@@ -55,7 +55,7 @@ class CreateEventModal(discord.ui.Modal):
         """
         guild = interaction.guild
         try:
-            await guild.create_scheduled_event(
+            await guild.create_scheduled_event( # type: ignore
                 name=self.event_name.value,
                 start_time=parse_date_time(self.date_time.value),
                 description=self.description.value,

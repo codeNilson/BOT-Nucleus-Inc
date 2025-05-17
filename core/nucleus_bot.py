@@ -13,7 +13,7 @@ class NucleusBot(commands.Bot):
         super().tree.on_error = self.on_app_commands_error
 
     async def on_ready(self):
-        print(f"Bot está online como {self.user.name}#{self.user.discriminator}")
+        print(f"Bot está online como {self.user.name}#{self.user.discriminator}") # type: ignore
 
     async def on_app_commands_error(self, interaction: Interaction, error):
         """Método chamado quando um erro ocorre em um comando de aplicativo (slash command)."""
