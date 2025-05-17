@@ -1,12 +1,38 @@
 import os
 from discord import Intents
 from discord.ext import commands
+from dotenv import load_dotenv
 from core.nucleus_bot import NucleusBot
+from logs.config import setup_discord_logger
+from logs.logger import LOGGER
 
 
-def main():
+# Carrega as variáveis de ambiente do arquivo .env
+load_dotenv()
+
+
+def get_discord_token() -> str:
+    """
+    Obtém o token do Discord a partir da variável de ambiente DISCORD_TOKEN.
+    Se a variável de ambiente não estiver definida, levanta um ValueError.
+    """
+
     DISCORD_TOKEN = os.getenv("DISCORD_TOKEN", None)
 
+    if not DISCORD_TOKEN:
+        LOGGER.error(
+            "O token do Discord não foi encontrado. Defina a variável de ambiente DISCORD_TOKEN."
+        )
+        raise ValueError(
+            "O token do Discord não foi encontrado. Defina a variável de ambiente DISCORD_TOKEN."
+        )
+    return DISCORD_TOKEN
+
+
+def start_bot() -> None:
+    """
+    Inicia o bot do Discord.
+    """
     intents = Intents.all()
 
     bot = NucleusBot(
@@ -14,11 +40,19 @@ def main():
         intents=intents,
     )
 
-    if not DISCORD_TOKEN:
-        raise ValueError(
-            "O token do Discord não foi encontrado. Defina a variável de ambiente DISCORD_TOKEN."
-        )
-    bot.run(DISCORD_TOKEN)
+    discord_token = get_discord_token()
+
+    bot.run(discord_token)
+
+
+def main():
+    """
+    Função principal que configura o logger e inicia o bot do Discord.
+    """
+
+    setup_discord_logger()
+
+    start_bot()
 
 
 if __name__ == "__main__":

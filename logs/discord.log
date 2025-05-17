@@ -1,0 +1,2 @@
+2025-05-17 11:03:27,678 | discord.client | WARNING: PyNaCl is not installed, voice will NOT be supported
+2025-05-17 11:03:27,679 | nucleus-inc | ERROR: O token do Discord não foi encontrado. Defina a variável de ambiente DISCORD_TOKEN.
