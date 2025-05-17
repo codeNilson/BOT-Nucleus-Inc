@@ -1,6 +1,7 @@
 import discord
 from discord.ext import commands
 from discord import app_commands
+from core.ui.modal import CreateEventModal
 
 
 class AdminCog(commands.Cog, name="Admin"):
@@ -18,12 +19,15 @@ class AdminCog(commands.Cog, name="Admin"):
     async def create_event(
         self,
         interaction: discord.Interaction,
-        título: str,
-        descrição: str,
-        data: str,
         channel: discord.VoiceChannel,
     ):
-        await interaction.response.send_message("Criando um novo evento...")
+        modal = CreateEventModal(channel)
+        await interaction.response.send_modal(modal)
+
+        await interaction.followup.send(
+            f"Evento criado com sucesso no canal {channel.name}!",
+            ephemeral=True,
+        )
 
 
 async def setup(bot: commands.Bot):
