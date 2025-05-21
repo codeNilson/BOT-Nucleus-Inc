@@ -1,8 +1,0 @@
-[tool.pytest.ini_options]
-addopts = "-ra -q"
-console_output_style = "classic"
-python_files = ["test_*.py", "*_test.py"] # default ["test_*.py", "*_test.py"]
-markers = [
-    "slow: mark tests as slow to run",
-    "serial: mark tests to run sequentially"
-]
