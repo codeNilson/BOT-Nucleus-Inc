@@ -1,0 +1,95 @@
+2025-05-21 18:36:31,171 | discord.client | WARNING: PyNaCl is not installed, voice will NOT be supported
+2025-05-21 18:36:31,172 | discord.client | INFO: logging in using static token
+2025-05-21 18:36:31,882 | nucleus-inc | DEBUG: Método setup_hook chamado.
+2025-05-21 18:36:33,011 | discord.gateway | INFO: Shard ID None has connected to Gateway (Session ID: 4f829b8fd9db4d9b4f487239ac3c3293).
+2025-05-21 18:36:35,014 | nucleus-inc | DEBUG: Bot está online como Nucleus Inc
+2025-05-21 18:36:43,655 | discord.client | WARNING: PyNaCl is not installed, voice will NOT be supported
+2025-05-21 18:36:43,657 | discord.client | INFO: logging in using static token
+2025-05-21 18:36:44,498 | nucleus-inc | DEBUG: Método setup_hook chamado.
+2025-05-21 18:36:58,453 | discord.client | WARNING: PyNaCl is not installed, voice will NOT be supported
+2025-05-21 18:36:58,454 | discord.client | INFO: logging in using static token
+2025-05-21 18:36:59,185 | nucleus-inc | DEBUG: Método setup_hook chamado.
+2025-05-21 18:36:59,449 | discord.http | WARNING: We are being rate limited. PUT https://discord.com/api/v10/applications/1372594749676195980/commands responded with 429. Retrying in 2.71 seconds.
+2025-05-21 18:37:23,907 | discord.client | WARNING: PyNaCl is not installed, voice will NOT be supported
+2025-05-21 18:37:23,908 | discord.client | INFO: logging in using static token
+2025-05-21 18:37:24,542 | nucleus-inc | DEBUG: Método setup_hook chamado.
+2025-05-21 18:37:24,802 | discord.http | WARNING: We are being rate limited. PUT https://discord.com/api/v10/applications/1372594749676195980/commands responded with 429. Retrying in 7.36 seconds.
+2025-05-21 18:38:14,660 | discord.client | WARNING: PyNaCl is not installed, voice will NOT be supported
+2025-05-21 18:38:14,661 | discord.client | INFO: logging in using static token
+2025-05-21 18:38:15,251 | nucleus-inc | DEBUG: Método setup_hook chamado.
+2025-05-21 18:39:16,456 | discord.client | WARNING: PyNaCl is not installed, voice will NOT be supported
+2025-05-21 18:39:16,457 | discord.client | INFO: logging in using static token
+2025-05-21 18:39:17,098 | nucleus-inc | DEBUG: Método setup_hook chamado.
+2025-05-21 18:39:18,072 | discord.gateway | INFO: Shard ID None has connected to Gateway (Session ID: f5a1e2d695be6228e6d2c01a69ab9e05).
+2025-05-21 18:39:20,076 | nucleus-inc | DEBUG: Bot está online como Nucleus Inc
+2025-05-21 18:39:34,446 | nucleus-inc | DEBUG: Comando de criar evento recebido de aromight no canal Lounge
+2025-05-21 18:40:01,967 | nucleus-inc | INFO: Access token expired, refreshing...
+2025-05-21 18:40:02,413 | nucleus-inc | INFO: Successfully retrieved access token.
+2025-05-21 18:40:02,907 | nucleus-inc | ERROR: Failed to create event. Status code: 401
+2025-05-21 18:41:29,099 | discord.client | WARNING: PyNaCl is not installed, voice will NOT be supported
+2025-05-21 18:41:29,100 | discord.client | INFO: logging in using static token
+2025-05-21 18:41:29,846 | nucleus-inc | DEBUG: Método setup_hook chamado.
+2025-05-21 18:41:30,881 | discord.gateway | INFO: Shard ID None has connected to Gateway (Session ID: a2354ae2ad6c10cb76ef8105056d1866).
+2025-05-21 18:41:32,890 | nucleus-inc | DEBUG: Bot está online como Nucleus Inc
+2025-05-21 18:41:36,227 | nucleus-inc | DEBUG: Comando de criar evento recebido de aromight no canal Sala de reuniões 2
+2025-05-21 18:42:30,824 | nucleus-inc | DEBUG: Comando de criar evento recebido de aromight no canal Lounge
+2025-05-21 18:42:59,951 | nucleus-inc | INFO: Access token expired, refreshing...
+2025-05-21 18:43:00,399 | nucleus-inc | INFO: Successfully retrieved access token.
+2025-05-21 18:43:00,843 | nucleus-inc | ERROR: Failed to create event. Status code: 401
+2025-05-21 18:48:18,382 | discord.client | WARNING: PyNaCl is not installed, voice will NOT be supported
+2025-05-21 18:48:18,383 | discord.client | INFO: logging in using static token
+2025-05-21 18:48:18,985 | nucleus-inc | DEBUG: Método setup_hook chamado.
+2025-05-21 18:48:19,943 | discord.gateway | INFO: Shard ID None has connected to Gateway (Session ID: 0830b1bc125c108fbd57146ed9fbd7c5).
+2025-05-21 18:48:21,947 | nucleus-inc | DEBUG: Bot está online como Nucleus Inc
+2025-05-21 18:48:32,677 | nucleus-inc | DEBUG: Comando de criar evento recebido de aromight no canal Lounge
+2025-05-21 18:48:51,641 | nucleus-inc | INFO: Access token expired, refreshing...
+2025-05-21 18:48:52,098 | nucleus-inc | INFO: Successfully retrieved access token.
+2025-05-21 18:48:52,546 | nucleus-inc | ERROR: Failed to create event. Status code: 401
+2025-05-21 18:54:36,212 | discord.client | WARNING: PyNaCl is not installed, voice will NOT be supported
+2025-05-21 18:54:36,213 | discord.client | INFO: logging in using static token
+2025-05-21 18:54:37,002 | nucleus-inc | DEBUG: Método setup_hook chamado.
+2025-05-21 18:54:38,012 | discord.gateway | INFO: Shard ID None has connected to Gateway (Session ID: a159ba484234be288621ced973f10ebc).
+2025-05-21 18:54:40,017 | nucleus-inc | DEBUG: Bot está online como Nucleus Inc
+2025-05-21 18:54:43,825 | nucleus-inc | DEBUG: Comando de criar evento recebido de aromight no canal Lounge
+2025-05-21 18:54:56,864 | nucleus-inc | INFO: Access token expired, refreshing...
+2025-05-21 18:54:57,293 | nucleus-inc | INFO: Successfully retrieved access token.
+2025-05-21 18:54:57,728 | nucleus-inc | ERROR: Failed to create event. Status code: 401
+2025-05-21 19:02:18,506 | discord.client | WARNING: PyNaCl is not installed, voice will NOT be supported
+2025-05-21 19:02:18,507 | discord.client | INFO: logging in using static token
+2025-05-21 19:02:19,124 | nucleus-inc | DEBUG: Método setup_hook chamado.
+2025-05-21 19:02:20,061 | discord.gateway | INFO: Shard ID None has connected to Gateway (Session ID: 296e972d742f4429a557210a0e63e969).
+2025-05-21 19:02:22,074 | nucleus-inc | DEBUG: Bot está online como Nucleus Inc
+2025-05-21 19:02:31,580 | nucleus-inc | DEBUG: Comando de criar evento recebido de aromight no canal Lounge
+2025-05-21 19:02:48,149 | nucleus-inc | INFO: Access token expired, refreshing...
+2025-05-21 19:02:48,581 | nucleus-inc | INFO: Successfully retrieved access token.
+2025-05-21 19:02:49,215 | nucleus-inc | INFO: Successfully created event.
+2025-05-21 19:07:08,531 | nucleus-inc | DEBUG: Comando de criar evento recebido de aromight no canal Lounge
+2025-05-21 19:07:27,126 | nucleus-inc | INFO: Access token expired, refreshing...
+2025-05-21 19:07:27,552 | nucleus-inc | INFO: Successfully retrieved access token.
+2025-05-21 19:07:27,998 | nucleus-inc | ERROR: Failed to create event. Status code: 400
+2025-05-21 19:07:48,256 | nucleus-inc | DEBUG: Comando de criar evento recebido de aromight no canal Lounge
+2025-05-21 19:08:07,647 | nucleus-inc | INFO: Access token expired, refreshing...
+2025-05-21 19:08:08,071 | nucleus-inc | INFO: Successfully retrieved access token.
+2025-05-21 19:08:08,613 | nucleus-inc | INFO: Successfully created event.
+2025-05-21 19:08:40,237 | discord.client | WARNING: PyNaCl is not installed, voice will NOT be supported
+2025-05-21 19:08:40,238 | discord.client | INFO: logging in using static token
+2025-05-21 19:08:40,830 | nucleus-inc | DEBUG: Método setup_hook chamado.
+2025-05-21 19:08:41,845 | discord.gateway | INFO: Shard ID None has connected to Gateway (Session ID: e1e92229899f0dc259aa9fc9e7cd91e8).
+2025-05-21 19:08:43,848 | nucleus-inc | DEBUG: Bot está online como Nucleus Inc
+2025-05-21 19:08:45,791 | nucleus-inc | DEBUG: Comando de criar evento recebido de aromight no canal Lounge
+2025-05-21 19:09:08,525 | nucleus-inc | INFO: Access token expired, refreshing...
+2025-05-21 19:09:09,021 | nucleus-inc | INFO: Successfully retrieved access token.
+2025-05-21 19:09:09,578 | nucleus-inc | ERROR: Failed to create event. Status code: 500
+2025-05-21 19:09:49,898 | discord.client | WARNING: PyNaCl is not installed, voice will NOT be supported
+2025-05-21 19:09:49,900 | discord.client | INFO: logging in using static token
+2025-05-21 19:09:50,635 | nucleus-inc | DEBUG: Método setup_hook chamado.
+2025-05-21 19:09:51,558 | discord.gateway | INFO: Shard ID None has connected to Gateway (Session ID: d21960dc2d5b1998650543dd898edea2).
+2025-05-21 19:09:53,568 | nucleus-inc | DEBUG: Bot está online como Nucleus Inc
+2025-05-21 19:15:11,061 | nucleus-inc | DEBUG: Comando de criar evento recebido de aromight no canal Lounge
+2025-05-21 19:15:32,806 | nucleus-inc | INFO: Access token expired, refreshing...
+2025-05-21 19:15:33,233 | nucleus-inc | INFO: Successfully retrieved access token.
+2025-05-21 19:15:33,796 | nucleus-inc | INFO: Successfully created event.
+2025-05-21 19:15:41,166 | nucleus-inc | DEBUG: Comando de criar evento recebido de aromight no canal Lounge
+2025-05-21 19:16:05,284 | nucleus-inc | INFO: Access token expired, refreshing...
+2025-05-21 19:16:05,708 | nucleus-inc | INFO: Successfully retrieved access token.
+2025-05-21 19:16:06,261 | nucleus-inc | INFO: Successfully created event.
