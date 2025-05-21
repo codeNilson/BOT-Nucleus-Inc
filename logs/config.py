@@ -12,8 +12,6 @@ def setup_discord_logger():
     log_encoding = os.getenv("LOG_DEFAULT_ENCODING", "utf-8")
     log_level = os.getenv("LOG_LEVEL", "DEBUG")
 
-    # os.makedirs(os.path.dirname(log_path), exist_ok=True)
-
     handler = TimedRotatingFileHandler(
         log_path,
         when=log_rotation_when,

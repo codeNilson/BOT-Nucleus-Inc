@@ -45,10 +45,7 @@ class ZohoClient:
 
         endpoint = f"https://calendar.zoho.com/api/v1/calendars/{Config.ZOHO_CALENDAR_UID}/events?eventdata={encoded_data}"
 
-        await self._make_request(
-            endpoint=endpoint,
-            data=encoded_data,
-        )
+        await self._make_request(endpoint=endpoint, data=encoded_data)
 
     async def _make_request(self, endpoint: str, data: str):
         access_token = await self.token_manager.get_access_token()  # type: ignore
@@ -57,7 +54,7 @@ class ZohoClient:
         async with self._get_session(headers) as session:
             async with session.post(endpoint, data=data) as response:
                 if response.status == 200:
-                    LOGGER.info("Successfully created event.")
+                    LOGGER.info("Successfully created event on Zoho Calendar.")
                     return
                 LOGGER.error("Failed to create event. Status code: %s", response.status)
 
@@ -67,8 +64,8 @@ class ZohoClient:
             yield session
 
     def _format_zoho_date(self, date: datetime) -> str:
-
-        # Convert the datetime object to a string in the desired format
+        """
+        Formata a data para o formato esperado pela API do Zoho.
+        """
         date_utc = date.astimezone(ZoneInfo("UTC"))
-        # "yyyyMMdd'T'HHmmss'Z'"
         return date_utc.strftime("%Y%m%dT%H%M%SZ")

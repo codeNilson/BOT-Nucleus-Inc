@@ -1,6 +1,7 @@
 from discord import Interaction
 from discord import Intents
 from discord.ext import commands
+from errors.api_connection_error import APIConnectionError
 from logs.logger import LOGGER
 
 
@@ -19,9 +20,14 @@ class NucleusBot(commands.Bot):
 
     async def on_app_commands_error(self, interaction: Interaction, error):
         """Método chamado quando um erro ocorre em um comando de aplicativo (slash command)."""
-        if isinstance(error, Exception):
+        if isinstance(error, APIConnectionError):
             await interaction.response.send_message(
-                f"Erro: {error}",
+                "❌ Erro de conexão com a API do ZOHO. Por favor, tente novamente mais tarde."
+            )
+
+        elif isinstance(error, Exception):
+            await interaction.response.send_message(
+                "❌ Ocorreu um erro inesperado. Por favor, tente novamente mais tarde.",
                 ephemeral=True,
             )
 
