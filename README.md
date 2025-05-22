@@ -1,4 +1,3 @@
-
 # 🗓️ Nucleus Inc. Calendar Discord Bot
 
 Este repositório contém o **bot de integração entre Discord e Zoho Calendar** da Nucleus Inc.  
@@ -122,3 +121,7 @@ python3 app.py
 - logging
 
 ---
+
+# **Demo**
+
+![Bot Demo](https://i.imgur.com/JdCmT9g.gif)
