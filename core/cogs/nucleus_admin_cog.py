@@ -31,11 +31,6 @@ class AdminCog(commands.Cog, name="Admin"):
         modal = CreateEventModal(channel)
         await interaction.response.send_modal(modal)
 
-        await interaction.followup.send(
-            f"Evento criado com sucesso no canal {channel.name}!",
-            ephemeral=True,
-        )
-
 
 async def setup(bot: commands.Bot):
     """Função de configuração do cog Admin. Chamado por .load_extension() no setup_hook do bot."""

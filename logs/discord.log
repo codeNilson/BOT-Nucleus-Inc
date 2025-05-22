@@ -93,3 +93,29 @@
 2025-05-21 19:16:05,284 | nucleus-inc | INFO: Access token expired, refreshing...
 2025-05-21 19:16:05,708 | nucleus-inc | INFO: Successfully retrieved access token.
 2025-05-21 19:16:06,261 | nucleus-inc | INFO: Successfully created event.
+2025-05-21 20:55:35,828 | discord.client | WARNING: PyNaCl is not installed, voice will NOT be supported
+2025-05-21 20:55:35,829 | discord.client | INFO: logging in using static token
+2025-05-21 20:55:36,442 | nucleus-inc | DEBUG: Método setup_hook chamado.
+2025-05-21 20:55:37,480 | discord.gateway | INFO: Shard ID None has connected to Gateway (Session ID: feef1c66470588eb325475e83e4a1819).
+2025-05-21 20:55:39,486 | nucleus-inc | DEBUG: Bot está online como Nucleus Inc
+2025-05-21 20:56:42,848 | nucleus-inc | DEBUG: Comando de criar evento recebido de aromight no canal Lounge
+2025-05-21 20:57:13,573 | nucleus-inc | INFO: Access token expired, refreshing...
+2025-05-21 20:57:14,001 | nucleus-inc | INFO: Successfully retrieved access token.
+2025-05-21 20:57:14,414 | nucleus-inc | ERROR: Failed to create event. Status code: 400
+2025-05-21 21:01:59,026 | discord.client | WARNING: PyNaCl is not installed, voice will NOT be supported
+2025-05-21 21:01:59,027 | discord.client | INFO: logging in using static token
+2025-05-21 21:01:59,787 | nucleus-inc | DEBUG: Método setup_hook chamado.
+2025-05-21 21:02:00,866 | discord.gateway | INFO: Shard ID None has connected to Gateway (Session ID: 7dd257b5d53e3288948a70c1b31708b3).
+2025-05-21 21:02:02,869 | nucleus-inc | DEBUG: Bot está online como Nucleus Inc
+2025-05-21 21:02:52,062 | nucleus-inc | DEBUG: Comando de criar evento recebido de aromight no canal Lounge
+2025-05-21 21:03:11,852 | nucleus-inc | DEBUG: Comando de criar evento recebido de aromight no canal Lounge
+2025-05-21 21:04:32,594 | discord.client | WARNING: PyNaCl is not installed, voice will NOT be supported
+2025-05-21 21:04:32,595 | discord.client | INFO: logging in using static token
+2025-05-21 21:04:33,229 | nucleus-inc | DEBUG: Método setup_hook chamado.
+2025-05-21 21:04:34,240 | discord.gateway | INFO: Shard ID None has connected to Gateway (Session ID: 8fef7f224e0239c8617a9d616c1f617a).
+2025-05-21 21:04:36,245 | nucleus-inc | DEBUG: Bot está online como Nucleus Inc
+2025-05-21 21:04:39,140 | nucleus-inc | DEBUG: Comando de criar evento recebido de aromight no canal Lounge
+2025-05-21 21:05:14,879 | nucleus-inc | DEBUG: Comando de criar evento recebido de aromight no canal Sala de reuniões 1
+2025-05-21 21:05:39,909 | nucleus-inc | INFO: Access token expired, refreshing...
+2025-05-21 21:05:40,331 | nucleus-inc | INFO: Successfully retrieved access token.
+2025-05-21 21:05:40,757 | nucleus-inc | ERROR: Failed to create event. Status code: 400
